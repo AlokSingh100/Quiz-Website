@@ -33,3 +33,13 @@ color: #a5d62d;
 a{
     text-decoration: none;
 }
+.img{
+    height: 200px;
+    width: 200px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
