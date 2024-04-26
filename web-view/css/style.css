@@ -49,3 +49,8 @@ a{
 .blue{
     background-color: #51c6da;
 }
+.btn.btn-secondary {
+    color: #fff;
+    border-color: #1ee3cf;
+    background: #1ee3cf;
+}
