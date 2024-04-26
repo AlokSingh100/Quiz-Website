@@ -11,7 +11,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg orange">
-        <div class="container">
+        <div class="container-fluid">
 
           <div class="row">
 
@@ -23,7 +23,7 @@
            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-evenly" id="navbarNav">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
            
                 <ul class="navbar-nav ">
                   <li class="nav-item ">
@@ -38,19 +38,38 @@
                   <li class="nav-item">
                     <a class="nav-link ms-3 borderborder-warning green border-1 rounded-pill text-center ps-3 pe-3 my-2 shadow p-2" href="Html/About_us.html">About US</a>
                   </li>
+                  <ul class="navbar-nav  mx-5">
+                    <li class="nav-item text-dark fs-1" ><button type="button" class="btn mb-3  blue  btn btn-get-started" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Sign UP
+                    
+                        <i class="bi bi-box-arrow-in-right"></i></li></button>
                 </ul>
              
             </div>
             
-           
           </div>
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item text-dark fs-1">
-                <i class="bi bi-box-arrow-in-right"></i></li>
-          </ul>
+         
           
         </div>
       </nav>
+<!-- it is toggle button start -->
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Sign UP</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body"><form ></form>
+    <div class=""><label for="E-mail">Email</label></div>
+    <div class=""><input type="email" name="email" id="Mail"> </div>
+    <div class=""><label for="Passward">Passward</label></div>
+    <div class=""><input type="password" name="passward" id="passward"></div>
+    <div class=""><button>Sign UP</button></div>
+  </div>
+</form>
+</div>
+
+<!-- it is toggle button end -->
+
+
       <!-- nav section end here -->
       <!-- this is the main body section -->
     <div class="container mt-5  mb-4">
